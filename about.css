@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     /* background-color: #beb9b954;  */
+    /* background-image: url(pexels-darren-lawrence-3417701.jpg);
+} 
+
+.about-section{
+    /* background: url(bk.jpg) no-repeat left;
+    background-size: 55%; */
+    
+    /* overflow: hidden;
+    padding: 100px 0; */
+}
+
+.inner-container{
+    /* width: 100%; */
+    /* float: right; */
+    /* background-color: #beb9b954;  */
+     padding: 7%;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 47px;
+    font-family: 'Raleway';
+    font-weight: 1000;
+    /* font-weight: 900; */
+    text-align: justify;
+}
+.footerbase{
+    font-family: 'Crimson Text';
+    list-style: none;
+    /* margin: 10% 20%;
+    display: unset; */
+    font-size: 140%;
+    /* padding: 22% 11%; */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Crimson Text';
+    font-weight: lighter;
+    font-size: 140%;
+    /* margin-top: 0%; */
+    background-color: burlywood;
+    background-image: url(about-us-bnn-484140.jpg);
+    padding: 4%;
+}
+.text{
+    /* font-size: 13px; */
+    color: #0043fa;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 40px;
+    font-family: 'Google Sans';
+    font-size: larger;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+
+p {
+    color: black;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: lighter;
+    font-size: 20%;
+    margin-top: 0%;
+}
+
+li {
+    list-style: none;
+    margin: 10% 30%;
+    display: inline-block;
+    font-size: 20%;
+    padding: 20% 20%;
+
+}
+
+footer{
+        font-family: 'Crimson Text';
+}
+
+     
+}

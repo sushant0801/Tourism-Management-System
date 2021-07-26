@@ -1,0 +1,164 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="newcss.css">
+    <title>Enquiry</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <script src="sweetalert2.min.js"></script>
+</head>
+
+<body>
+    <style>
+        label {
+            font-size: 16px;
+        }
+    </style>
+    <div class="container-fluid" style="padding:0px!important">
+        <nav>
+            <ul>
+                <li><a href="homepage.php">HOME</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="#">PACKAGES</a></li>
+                <li><a href="enquiry.html">ENQUIRY</a></li>
+                <li><a href="login.php">LOGIN</a></li>
+            </ul>
+        </nav>
+
+        <h2>
+            <center>Enquiry form</center>
+        </h2>
+        <form action="code.php" method="POST" class="form-horizontal" style="padding-top: 20px;">
+            <div class="col-sm-offset-3 col-sm-6">
+
+                <div class="form-group">
+                    <label class="control-label col-sm-4">Passenger Contact Info:</label>
+                    <div class="col-sm-3">
+                        <!--input type="text" class="form-control" id="fullname" placeholder="Enter fullname"
+                            name="fullname"-->
+                         <input type="text" class="form-control" id="fullname" placeholder="Firstname"
+                            name="fname">
+                    </div>
+                    <div class="col-sm-3">
+                          <input type="text" class="form-control" id="fullname" placeholder="Lastname"
+                            name="lname"> 
+                    </div> 
+                    
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-sm-4">Contact No:</label>
+                    <div class="col-sm-6">
+                        <input type="number" class="form-control" id="Phone no" placeholder="Enter Contact No "
+                            name="contact">
+                    </div>
+                </div>
+
+                 <div class="form-group">
+                    <label class="control-label col-sm-4">Email:</label>
+                    <div class="col-sm-6">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    </div>
+                </div>
+
+                
+                <div class="form-group">
+                    <label class="control-label col-sm-4">Destination</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="email"  value="Japan" placeholder="" name="travel">
+                    </div>
+                </div>
+                
+
+                <div class="form-group">
+                    <label class="control-label col-sm-4">City of Departure</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="Destination" placeholder="Enter city of departure"
+                            name="City">
+                    </div>
+                </div>
+
+           
+
+                <div class="form-group">
+                    <label class="control-label col-sm-4">No of people travelling</label>
+                    <div class="col-sm-6">
+                        <input type="number" class="form-control" id="travelling" placeholder="Enter no of people"
+                            name="travelling">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label class="control-label col-sm-4">Do you prefer all-inclusive</label>
+                    <div class="col-sm-6">
+                        <input type="radio" id="age1" name="allyes" value="30">
+                        <label for="Yes">Yes</label>
+                        <input type="radio" id="age1" name="allyes" value="30">
+                        <label for="No">No</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-sm-4">Departure date</label>
+                    <div class="col-sm-6">
+                        <input type="date" class="form-control" id="DD" name="Departure">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-sm-4">Return date</label>
+                    <div class="col-sm-6">
+                        <input type="date" class="form-control" id="DD" name="Return">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-sm-4">Your Question</label>
+                    <div class="col-sm-6">
+                        <input type="radio" id="age1" name="allyes" value="30">
+                        <label for="Student">Student Offer</label><br>
+                        <input type="radio" id="age1" name="allyes" value="30">
+                        <label for="Organization">Organization Offer</label><br>
+                        <input type="radio" id="age1" name="allyes" value="30">
+                        <label for="Family">Family Offer</label>
+                    </div>
+                </div> 
+                
+
+                <div class="form-group">
+                    <div class="col-sm-10">
+                        <div class="col-sm-2 col-sm-offset-8">
+                            <button type="submit" onclick="alert()" name="submit_btn" class="btn btn-primary">Submit</button>
+                        </div>
+                        <div class="col-sm-2">
+                            <input type="reset" class="btn btn-primary">
+                        </div>
+
+                  
+                        
+
+
+                    </div>
+                </div>
+
+            </div>
+    </div>
+
+    </form>
+
+
+
+    <div class="footer">
+        
+            <p style="text-align: center;">Copyright © World Tours. All Rights
+                Reserved|Contact Us: +91 90000 00000</p>
+        
+    </div>
+
+
+</body>
+
+</html>
